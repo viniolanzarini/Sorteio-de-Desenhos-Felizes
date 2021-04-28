@@ -1,0 +1,71 @@
+body{
+    background: #FA7E5C;
+    font-family: VT323;
+}
+.cabecalho{
+    text-align: center;
+}
+.titulo{
+    margin: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #FECB5F;
+    text-shadow: 3px 5px 1px black;
+}
+.finnImg{
+    width: 15%;
+    position: absolute;
+    right: 85%;
+    bottom: 73%;
+}
+.subTitulo{
+    text-align: center;
+    font-size: 30px;
+    color: #63CCC8;
+    text-shadow: 3px 3px 1px #000;
+}
+.principal{
+   text-align: center;
+   margin: 30% 0 0 0;
+}
+/*.estrela{
+
+}*/
+.btnSorteia{
+    padding: 15px 25px;
+    font-size: 2em;
+    border-radius: 10px;
+    font-family: 'VT323';
+    background: #26739D;
+    color: #FFD249;
+    text-shadow: 2px 2px 1px rgb(0 0 0);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnSorteia:hover{
+    background: #1d516d;
+    color: #e9394b;
+}
+.btnSorteia:active{
+    background: #A1E99F;
+    color: #FA7E5C;
+}
+
+.jakeGif{
+    width: 13%;
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+}
+@media screen and (max-width: 1024px) {
+    .finnImg{
+        width: 25%;
+        left: 0%;
+        bottom: 0%;
+    }
+    .jakeGif{
+        width: 23%;
+        left: 75%;
+    }
+}
+
