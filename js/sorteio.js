@@ -1,5 +1,10 @@
 
+
+
+
 function trocaImg() {
+
+
     var logo = {
         logos: [
             "css/img/Attack_on_Titan_-_Logo.png",
@@ -14,6 +19,10 @@ function trocaImg() {
     var randomiza = 0
     randomiza = parseInt(Math.random() * logo.logos.length)
     console.log(randomiza)
-    document.getElementById("imagem").src = randomiza
+    var imagemLogo = document.getElementById("imagem")
+    imagemLogo.src = logo.logos[randomiza]
+      
+
+
 }
 

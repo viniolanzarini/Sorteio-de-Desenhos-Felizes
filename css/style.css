@@ -31,6 +31,9 @@ body{
     width: 10%;
     margin: 10%;
 }
+.snkLogo{
+    width: 15%;
+}
 .btnSorteia{
     padding: 15px 25px;
     font-size: 2em;
